@@ -1,0 +1,11 @@
+# GitHub Pages configuration to ensure .well-known directory is served
+include:
+  - .well-known
+
+# Ensure proper MIME types
+plugins:
+  - jekyll-include-cache
+
+# Allow serving of dotfiles
+keep_files:
+  - .well-known
